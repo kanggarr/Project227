@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* navbar css */
+.navbar{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  /* box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important; */
+  background-color: black !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+  color: white;
+}
+
+.active {
+  border-bottom: 1px solid #E0C0D3;
+  background-color: #E0C0D3;
+}
+
+.nav-item {
+  color: white;
+}
+
+.nav-item a:hover {
+  color: #E0C0D3;
+  border-bottom: 1px solid #E0C0D3 !important;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  text-transform: uppercase;
+  background-image: linear-gradient(45deg, #7393C2, #B6C7DD, #C784AF, #E0C0D3, #EFE4E6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+}
+/* ======================
+======= footer ======= */
+.footer{
+  color: white;
+  padding: 30px;
+  margin-top: 65px;
+  background: black;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #E0C0D3;
+  border-bottom: 1px solid #E0C0D3;
+}
+/* =====================
+=== page not found ===*/
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-header {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+/* ===================== */
+/* ==== contact us ===== */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ====================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
